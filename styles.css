@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 :root {
-	--doge-font: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+	--doge-font: "Comic Neue", sans-serif;
 }
 
 html, body {
@@ -53,5 +53,5 @@ section h3 {
 }
 
 .comic {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Neue", sans-serif;
 }
