@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<head>
+		<title>Sourdoge</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="resources/prism.css">
+	</head>
+	<body>
+
+		<div class="page">
+			
+			<header>
+				<h1>Sourdoge</h1>
+				<p>Demonstrating consumption of Doge Web Components. We might bake some bread here some day.</p>
+				<hr>
+			</header>
+
+			<section>
+				<h3>1. Add an image of a dog to your webpage (because ..why not)</h3>
+<pre class="language-html">
+<code>&lt;script type="module" src="https://fetch.dogecoin.org/doge-pal.js"&gt;&lt;/script&gt;
+&lt;doge-pal&gt;&lt;/doge-pal&gt;</code>
+</pre>
+
+				<script type="module" src="https://fetch.dogecoin.org/doge-pal.js"></script>
+				<doge-pal></doge-pal>
+			</section>
+
+			<section>
+				<h3>2. Display the current price of Dogecoin in a currency of your choice</h3>
+<pre class="language-html">
+<code>&#x3C;script type=&#x22;module&#x22; src=&#x22;https://fetch.dogecoin.org/doge-price.js&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;doge-price currency=&#x22;usd&#x22;&#x3E;&#x3C;/doge-price&#x3E;</code>
+</pre>
+
+				<script type="module" src="https://fetch.dogecoin.org/doge-price.js"></script>
+				<doge-price currency="usd"></doge-price>
+			</section>
+
+			<section>
+				<h3>3. Display a Dogecoin themed QR code</h3>
+<pre class="language-html">
+<code>&#x3C;script type=&#x22;module&#x22; src=&#x22;https://fetch.dogecoin.org/doge-qr.js&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;doge-qr address=&#x22;D89DhnsgKncmN12RejxudfU8AwXp3946q1&#x22;&#x3E;&#x3C;/doge-qr&#x3E;</code>
+</pre>
+
+				<script type="module" src="https://fetch.dogecoin.org/doge-qr.js"></script>
+				<doge-qr address="D89DhnsgKncmN12RejxudfU8AwXp3946q1"></doge-qr>
+
+			</section>
+
+			<script src="resources/prism.js"></script>
+			<script>
+			    Prism.highlightAll();
+			</script>
+
+		</div>
+
+	</body>
+</html>
